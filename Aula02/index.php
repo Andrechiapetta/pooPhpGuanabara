@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Aula 02 - POO</title>
 </head>
 <body>
     <?php

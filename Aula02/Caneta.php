@@ -8,7 +8,7 @@ class Caneta {
     var $tampada;
 
     function rabiscar() {
-
+        echo "Estou rabiscanso.....";
     }
 
     function tampar() {

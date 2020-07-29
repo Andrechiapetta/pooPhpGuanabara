@@ -7,6 +7,11 @@ class Caneta {
     protected $carga;
     protected $tampada;
 
+    public function __construct() {
+        $this->cor = "Azul";
+        $this->tampar();
+    }
+
     public function getModelo() {
         return $this->modelo;
     }

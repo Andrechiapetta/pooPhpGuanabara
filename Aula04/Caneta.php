@@ -1,7 +1,7 @@
 <?php
 
 class Caneta {
-    public $modelo;
+    private $modelo;
     public $cor;
     private $ponta;
     protected $carga;

@@ -15,7 +15,9 @@
         echo "<br/>";
 
         $c2 = new Caneta("NIC", "Preta", 0.5);
+        $c2->destampar();
         print_r($c2);
+        $c2->rabiscar();
 
     ?>
     </pre>

@@ -31,18 +31,19 @@ class Caneta {
     }
 
     public function rabiscar() {
-        if ($this->tampada == true) {
+        if ($this->tampada == "Tampada") {
             echo "<p>ERRO! Não posso rabiscar!<p>";
         } else {
             echo "<p>Estou rabiscanso.....<p>";
         }
     }
 
+
     public function tampar() {
-        $this->tampada = true;
+        $this->tampada = "Tampada";
     }
 
     public function destampar() {
-        $this->tampada = false;
+        $this->tampada = "Destampada";
     }
 }

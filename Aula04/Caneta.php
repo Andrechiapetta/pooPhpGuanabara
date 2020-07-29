@@ -7,7 +7,7 @@ class Caneta {
     protected $carga;
     protected $tampada;
 
-    public function __construct() {
+    public function Caneta() { // Método construtor
         $this->cor = "Azul";
         $this->tampar();
     }

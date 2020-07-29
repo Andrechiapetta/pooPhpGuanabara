@@ -8,12 +8,13 @@
     <pre>
     <?php
         require_once 'Caneta.php';
-        $c1 = new Caneta;
+        $c1 = new Caneta("BIC", "Azul", 0.5);
         $c1->setModelo("BIC");
         $c1->setPonta(0.5);
-        print "Eu tenho uma caneta {$c1->getModelo()} de ponta {$c1->getPonta()}";
+        print "Eu tenho uma caneta {$c1->getModelo()} de ponta {$c1->getPonta()}\n";
+        echo "<br/>";
 
-        $c2 = new Caneta;
+        $c2 = new Caneta("NIC", "Preta", 0.5);
         print_r($c2);
 
     ?>

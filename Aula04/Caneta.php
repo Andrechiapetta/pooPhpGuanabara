@@ -7,6 +7,22 @@ class Caneta {
     protected $carga;
     protected $tampada;
 
+    public function getModelo() {
+        return $this->modelo;
+    }
+
+    public function setModelo($m) {
+        $this->modelo = $m;
+    }
+
+    public function getPonta() {
+        return $this->ponta;
+    }
+
+    public function setPonta($p) {
+        return $this->ponta = $p;
+    }
+
     public function rabiscar() {
         if ($this->tampada == true) {
             echo "<p>ERRO! Não posso rabiscar!<p>";
